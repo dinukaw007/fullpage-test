@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+h1 {
+  font-family: 'Montserrat';
+  text-align: center;
+  color: white;
+}
+
+.s1 {
+  background: url(../images/florian-klauer-LmkaYtMpNS8-unsplash.jpg);
+  background-size: cover;
+}
+
+.s1 h1 {
+  margin-right: 2em;
+}
+
+.s2 {
+  background: url(../images/markus-spiske-W3iFJ-LAzNo-unsplash.jpg);
+  background-size: cover;
+}
+
+.s2 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 4rem;
+}
+
+.s3 {
+  background: url(../images/omar-prestwich-ZzGFUVMV-ao-unsplash.jpg);
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 2rem;
+}
+
+span {
+  background: white !important;
+}
+
+.fp-slidesNav.fp-bottom {
+  margin-left: 1rem !important;
+}
+/*# sourceMappingURL=main.css.map */

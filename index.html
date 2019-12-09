@@ -16,13 +16,21 @@
   <body>
     <div id="fullpage">
       <div class="section s1">
-        <h1>First Section</h1>
+        <div class="slide">
+          <h1>Fiber</h1>
+        </div>
+        <div class="slide">
+          <h1>Mobility</h1>
+        </div>
+        <div class="slide">
+          <h1>Digital Sri Lanaka</h1>
+        </div>
       </div>
       <div class="section s2">
-        <h1>Second Section</h1>
+        <h1>Kiosk</h1>
       </div>
       <div class="section s3">
-        <h1>Third Section</h1>
+        <h1>Nikon</h1>
       </div>
     </div>
     <script
@@ -31,9 +39,17 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      new fullpage('#fulpage', {
-		licenseKey: 'null',
-        autoScorolling: true
+      new fullpage('#fullpage', {
+        licenseKey: 'null',
+        autoScorolling: true,
+        navigation: true,
+        anchors: ['section1', 'section2', 'section3'],
+        navigationTooltips: ['Home', 'About us', 'Contact'],
+        showActiveTooltip: true,
+        controlArrows: false,
+        slidesNavigation:true,
+        slidesNavPosition: 'bottom',
+        fadingEffect: true,
       });
     </script>
   </body>
